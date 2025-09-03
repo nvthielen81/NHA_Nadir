@@ -18,3 +18,5 @@ recalme_text4 = recalme_text4.replace("heeft", "HEEFT")
 recalme_text4 = recalme_text4.replace("opleiding", "OPLEIDING")
 recalme_text4 = recalme_text4.replace("programereren", "PROGRAMEREN")
 print(recalme_text4)
+
+print("Bestand tijdelijk.py gecodeerd")
