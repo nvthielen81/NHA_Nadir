@@ -7,9 +7,14 @@ print("Vandaag in de aanbieding: " + smaken_en_prijzen[0:6] + "ijs, 1 liter - sl
 
 
 
-recalme_text4 = "Nha heeft een opleing programereren"
+recalme_text4 = "Nha heeft een opleiding programereren"
 for i in range(0, len(recalme_text4), 2):
     print(recalme_text4[i])
 
 el = recalme_text4.lower()
 print(el)
+
+recalme_text4 = recalme_text4.replace("heeft", "HEEFT")
+recalme_text4 = recalme_text4.replace("opleiding", "OPLEIDING")
+recalme_text4 = recalme_text4.replace("programereren", "PROGRAMEREN")
+print(recalme_text4)
